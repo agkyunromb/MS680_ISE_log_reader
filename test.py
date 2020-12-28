@@ -1,7 +1,7 @@
 '''
 Author: AG
 Date: 2020-12-26 21:43:24
-LastEditTime: 2020-12-27 11:31:57
+LastEditTime: 2020-12-28 09:38:51
 LastEditors: AG
 FilePath: /MS680_ISE_log_reader/test.py
 Description: 
@@ -13,7 +13,7 @@ import time
 import copy
 
 #base_work_dir = r"E:\git_work_dir\MS680_ISE_log_reader\work_dir"
-base_work_dir = os.path.join(os.getcwd(), "workdir")
+base_work_dir = os.path.join(os.getcwd(), "work_dir")
 
 
 def get_log_list(work_dir: str) -> list:
